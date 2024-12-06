@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio</title>
+  <link rel="icon" type="image/x-icon" href="https://brandlogos.net/wp-content/uploads/2021/11/java-logo.png">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/js/all.min.js"></script>
+  <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+</head>
+
+<body>
+  <nav class="nav">
+    <a href="tel:+9019994562" aria-label="Phone"><i class="fa-solid fa-phone-volume"></i></a>
+    <a href="https://www.instagram.com/mjsadanand_/" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+    <a href="https://www.linkedin.com/in/sadanand-m-258a99268/" aria-label="LinkedIn"><i
+        class="fa-brands fa-linkedin"></i></a>
+    <a href="https://github.com/Mjsadanand" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+    <a href="https://leetcode.com/u/mjsadanand/" aria-label="Code"><i class="fa-solid fa-code"></i></a>
+    <a href="https://www.hackerrank.com/profile/01fe23mca043" aria-label="HackerRank"><i
+        class="fa-brands fa-hackerrank"></i></a>
+  </nav>
+
+  <section id="hello">
+    <div class="sec1">
+      <h3 class="port">Portfolio</h3>
+      <ul class="menu sec1">
+        <li><a href="#">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <!-- <li><button id="theme-toggle" onclick="toggleTheme()"> Dark Mode</button>
+        </li> -->
+        <!-- <i class="fa-solid fa-lightbulb" style="color: #fff; cursor: pointer; font-size: 23px;" onclick="toggleTheme()"></i> -->
+<li>
+<div class="checkbox-wrapper-35">
+  <input value="private" name="switch" id="switch" type="checkbox" class="switch" onclick="toggleTheme()">
+  <label for="switch">
+    <!-- <span class="switch-x-text">This is </span> -->
+    <span class="switch-x-toggletext">
+    </span>
+  </label>
+</div>
+
+  </li>
+      </ul>
+      <span id="span">
+        <nav class="navbar fixed-top">
+          <div class="container-fluid">
+            <!-- Hamburger Menu: Visible only on mobile devices -->
+            <button class="navbar-toggler d-block d-lg-none ms-auto" type="button" data-bs-toggle="offcanvas"
+              data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <!-- Offcanvas Menu -->
+            <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar"
+              aria-labelledby="offcanvasNavbarLabel">
+              <div class="offcanvas-header">
+                <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Portfolio</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+              </div>
+              <div class="offcanvas-body">
+                <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">About</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Projects</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Skills</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Contact</a>
+                  </li>
+                  <li>
+                  <li id="theme-toggle" onclick="toggleTheme()">Dark</li>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </nav>
+      </span>
+    </div>
+    <div class="type">
+      <h2>
+        Hi, I'm M Sadanand
+      </h2>
+      <span id="element"></span> <br> <br> <br> <br>
+      <button class="button"><a
+          href="https://drive.google.com/file/d/1GYdwwGPNJyv5L7HiYTbOU6vMmDXrYiH8/view?usp=drive_link">Resume</a></button>
+    </div>
+    <div class="banner">
+      <h2>Open to work</h2>
+      <button class="button">
+        <svg viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg" class="icon">
+          <path
+            d="M307 34.8c-11.5 5.1-19 16.6-19 29.2v64H176C78.8 128 0 206.8 0 304C0 417.3 81.5 467.9 100.2 478.1c2.5 1.4 5.3 1.9 8.1 1.9c10.9 0 19.7-8.9 19.7-19.7c0-7.5-4.3-14.4-9.8-19.5C108.8 431.9 96 414.4 96 384c0-53 43-96 96-96h96v64c0 12.6 7.4 24.1 19 29.2s25 3 34.4-5.4l160-144c6.7-6.1 10.6-14.7 10.6-23.8s-3.8-17.7-10.6-23.8l-160-144c-9.4-8.5-22.9-10.6-34.4-5.4z">
+          </path>
+        </svg>
+        Contact
+      </button>
+
+    </div>
+  </section>
+  <br><br><br> <br>
+  <section class="fade-in-section " id="about">
+    <section class="about">
+      <h2 class="head">About Me</h2>
+      <div><strong>" I'm a passionate software developer with a strong
+          foundation in Web Development and Data Structures & Algorithms."</strong></div>
+          <p class="shadow p-3 mb-5 bg-body rounded" style="text-align: justify;">
+            I am currently pursuing my MCA at <b>KLE Technological University,</b> specializing in full-stack development and software solutions. My expertise includes building responsive websites and interactive applications using HTML, CSS, JavaScript, PHP, and MySQL. I am also experienced in developing MERN applications with advanced frontend and backend integration, including real-time admin panels and secure file-sharing capabilities. 
+        
+            As part of my ongoing projects, I am working on a <b>Billboard Management System</b> focusing on innovative features like CRUD operations, analytics dashboards, and seamless user experiences. Beyond development, I am passionate about blogging and content creation, highlighting trending topics in technology and SEO-driven strategies.
+        
+            I am always eager to learn, collaborate, and deliver cutting-edge solutions. Explore my work on <a href="https://github.com/Mjsadanand" target="_blank" style="color: red;">GitHub</a> or connect with me on <a href="https://www.linkedin.com/in/sadanand-m-258a99268/" target="_blank" style="color: red;">LinkedIn</a>.
+        </p>
+        
+      <div>
+        <table class="table">
+          <thead>
+            <tr>
+              <th scope="col">Course</th>
+              <th scope="col">University/School</th>
+              <th scope="col">CGPA/Perc</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td scope="row">MCA</td>
+              <td>KLE Technological University Hubli</td>
+              <td>9.09</td>
+            </tr>
+            <tr>
+              <td scope="row">BSc(Cs)</td>
+              <td>Karnataka University Dharawad</td>
+              <td>8.59</td>
+            </tr>
+            <tr>
+              <td scope="row">PUC</td>
+              <td>Agastya Pre-University</td>
+              <td>87.16</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+  </section>
+
+  <section class="pro fade-in-section" id="projects">
+    <h2 class="head">Projects</h2> <br> <br>
+    <div class="pro1">
+      <div class="card">
+        <img src="images/image1.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Week Of Birth</h5>
+          <p class="card-text">For my mini-project, I developed a program that determines the day of the week on which a
+            person was born based on their birthdate. The project involves taking the user's birthdate as input,
+            processing the date using a specific algorithm, and then accurately identifying the corresponding day of the
+            week</p>
+          <a href="https://mjsadanand.github.io/DateofBirth/" target="_blank" class="btn btn-primary">Let's See</a>
+        </div>
+      </div>
+      <div class="card">
+        <img src="images/tic.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Tic Tac Toe</h5>
+          <p class="card-text">
+            For my mini-project, I created a Tic-Tac-Toe game using the C programming language. The game allows two
+            players to compete against each other, taking turns to place their marks (X or O) on a 3x3 grid. The program
+            checks for a win, loss, or draw after each move and declares the outcome accordingly.</p>
+          <a href="https://github.com/Mjsadanand/TicTacToe-using-2D-Array" target="_blank" class="btn btn-primary">Let's See</a>
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="images/ecom.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">E-Commerce Site</h5>
+          <p class="card-text">For my project, I developed the frontend of an e-commerce website that allows users to
+            browse products and store their login credentials securely using PHP. The website features a user-friendly
+            interface where customers can explore various products.This project highlights my skills in front-end web
+            development and basic server-side scripting with PHP.
+          </p>
+          <a href="https://mjsadanand.github.io/E-Commerce/" target="_blank" class="btn btn-primary">Let's See</a>
+        </div>
+      </div>
+      <div class="card">
+        <img src="images/bill.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Billboard Management System</h5>
+          <p class="card-text">This Billboard Management System is a full-stack application developed using the MERN
+            (MongoDB, Express, React, Node.js) stack. The system is designed to efficiently manage billboard properties,
+            clients, staff, and advertising content, offering a streamlined solution for billboard companies. The
+            application includes robust user authentication, role-based access control, and an intuitive UI for easy
+            management of billboards, scheduling, and client data. With MongoDB as the database, it securely handles
+            large datasets, while Express and Node.js provide a powerful backend to process user requests and data
+            management. </p>
+          <a href="https://github.com/Mjsadanand/BMS" target="_blank" class="btn btn-primary">Let's See</a>
+        </div>
+      </div>
+      <div class="card">
+        <img src="images/port.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Color Lab Portfolio</h5>
+          <p class="card-text">Developed a vibrant and responsive ColorLab portfolio using HTML5, CSS5, JavaScript, and
+            Bootstrap. Integrated a feature that directs clients instantly to WhatsApp, enhancing communication and
+            supporting business growth. Deployed the portfolio online with a custom domain and optimized visibility by
+            indexing it using top SEO tools. This user-focused design ensures an engaging and accessible platform for
+            clients to connect and interact effortlessly.</p>
+          <a href="https://veereshcolorlab.netlify.app/" class="btn btn-primary" target="_blank">Let's See</a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <br> <br>
+
+ <section class="skills-page">
+  <section class="skills-section">
+    <h2 class="head">Skills</h2> <br>
+    <div class="skills-container">
+      <div class="flip-card">
+        <div class="flip-card-inner">
+          <div class="flip-card-front">
+            <h3>Programming Languages</h3>
+          </div>
+          <div class="flip-card-back">
+            <p>Java <br> Python <br> JavaScript <br> C <br> PHP</p>
+          </div>
+        </div>
+      </div>
+      <div class="flip-card">
+        <div class="flip-card-inner">
+          <div class="flip-card-front">
+            <h3>Web <br>Development</h3>
+          </div>
+          <div class="flip-card-back">
+            <p>React.js <br> Bootstrap5 <br> HTML5 <br> CSS3</p>
+          </div>
+        </div>
+      </div>
+      <div class="flip-card">
+        <div class="flip-card-inner">
+          <div class="flip-card-front">
+            <h3>Database <br>& Version Control</h3>
+          </div>
+          <div class="flip-card-back">
+            <p>MySQL <br> MongoDB <br> GitHub</p>
+          </div>
+        </div>
+      </div>
+      <div class="flip-card">
+        <div class="flip-card-inner">
+          <div class="flip-card-front">
+            <h3>Specialized <br> Areas</h3>
+          </div>
+          <div class="flip-card-back">
+            <p>Algorithm Design <br> Optimization <br> System Architecture</p>
+          </div>
+        </div>
+      </div>
+      <div class="flip-card">
+        <div class="flip-card-inner">
+          <div class="flip-card-front">
+            <h3>Blogging</h3>
+          </div>
+          <div class="flip-card-back">
+            <p>Wordpress<br>SEO <br>Content Writing <br>Indexing</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+ </section>
+  
+  <section>
+    <footer>
+      <div class="footer-container">
+
+        <!-- Map Section -->
+        <div class="map-wrap">
+          <!-- Embed your map here -->
+          
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3481.4623981293234!2d75.11880467458676!3d15.36883835780801!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bb8d0ccd709a737%3A0xa247612556cc78b3!2sKLE%20Technological%20University!5e1!3m2!1sen!2sin!4v1730392712890!5m2!1sen!2sin" width="100%" height="100%" style="border:0;"
+            allowfullscreen="" loading="lazy">
+          </iframe>
+        </div>
+
+        <!-- Content Section (Details and Socials) -->
+        <div class="footer-content">
+          <h3>M J Sadanand</h3>
+          <p>Crafting digital experiences with creativity and precision. Let's connect!</p>
+
+          <!-- Social Icons -->
+          <ul class="socials">
+            <li><a href="https://www.instagram.com/mjsadanand_/" target="_blank"><i class="fa-brands fa-instagram"></i></a></li>
+            <li><a href="https://wa.me/919019994562"  target="_blank"><i class="fa-brands fa-whatsapp"></i></a></li>
+            <li><a href="https://github.com/Mjsadanand" target="_blank"><i class="fa-brands fa-github"></i></a></li>
+            <li><a href="https://x.com/sadanandjm" target="_blank"><i class="fa-brands fa-twitter"></i></a></li>
+            <li><a href="https://www.hackerrank.com/profile/01fe23mca043" target="_blank"><i class="fa-brands fa-hackerrank"></i></a></li>
+            <li><a href="https://leetcode.com/u/mjsadanand/" target="_blank"><i class="fa-solid fa-code"></i></a></li>
+          </ul>
+        </div>
+
+      </div>
+
+      <!-- Footer Bottom Text -->
+      <div class="footer-bottom">
+        <p>&copy; 2024 Portfolio. All Rights Reserved.</p>
+      </div>
+    </footer>
+
+
+  </section>
+  <!-- Setup and start animation! -->
+  <script>
+    var typed = new Typed('#element', {
+      strings: ['Frontend Developer', 'Content Creator', 'Blogger'],
+      typeSpeed: 55,
+    });
+  </script>
+</body>
+
+</html>
